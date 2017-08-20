@@ -344,5 +344,4 @@ class Bittrex(object):
         else:
             params = {'currency': currency}
 
-        # foobar
         return self.api_query('getdeposithistory', params)
